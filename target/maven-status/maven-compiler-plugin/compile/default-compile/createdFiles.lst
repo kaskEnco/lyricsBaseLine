@@ -1,0 +1,15 @@
+lyrics\dao\LyricMovieDAO.class
+lyrics\interfaces\KaskCommon.class
+lyrics\repository\YearRepository.class
+lyrics\dao\LyricConnectionFactory.class
+lyrics\dao\BaseDAO.class
+lyrics\model\L_language.class
+lyrics\model\L_lyrics.class
+lyrics\model\l_year.class
+lyrics\model\L_movie.class
+lyrics\dao\LyricLanguageDAO.class
+lyrics\service\LyricsMovieService.class
+lyrics\dao\LyricYearDAO.class
+test\test\lyrics.class
+test\test\TestApplication.class
+test\test\LatestLyrics.class
