@@ -1,10 +1,11 @@
 package lyrics.dao;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
-import lyrics.model.L_language;
 import lyrics.model.L_movie;
-import lyrics.model.l_year;
+import lyrics.model.MoviesLatest;
 
 public class LyricMovieDAO extends BaseDAO{
 
@@ -60,5 +61,14 @@ public class LyricMovieDAO extends BaseDAO{
 		}
 		
 		return  movie;
+	}
+	
+	public List<MoviesLatest> findLatest(){
+		MoviesLatest latest = new MoviesLatest();
+		List<MoviesLatest> moviesLatest = new ArrayList<MoviesLatest>();
+		
+		String queryString = "SELECT * FROM lyrics.l_movie ORDER BY movie_release_date DESC";
+		
+		return null;
 	}
 }

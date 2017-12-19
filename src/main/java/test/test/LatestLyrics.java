@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import lyrics.dao.LyricYearDAO;
+import lyrics.model.TrendingMovies;
 import lyrics.model.l_year;
 
 @RestController
@@ -35,7 +36,13 @@ public class LatestLyrics {
 	}
 	
 	
-	
+	@GetMapping(value = "/trending", produces = "application/json")
+	@Transactional
+	public List<TrendingMovies> findTrending() {
+		List<TrendingMovies> movies = null;
+		
+		return movies;
+	}
 	
 	
 	
