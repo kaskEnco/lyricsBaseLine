@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Implementation-Title: test
+Implementation-Title: Lirice
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Sunnie
-Implementation-Vendor-Id: test
-Build-Jdk: 1.8.0_152
-Implementation-URL: http://projects.spring.io/spring-boot/test/
+Built-By: Admin
+Implementation-Vendor-Id: Lirice
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/Lirice/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 
